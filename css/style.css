@@ -1,7 +1,8 @@
 .element {
-    height: 181px;
-    width: 326px;
-    padding: 15px 20px 20px;/*Можно ли тут сделать padding: 15px, 40px? Как ни как два одинаковых значений*/
+    box-sizing: border-box;
+    height: 220px;
+    width: 350px;
+    padding: 15px 10px 20px;/*Можно ли тут сделать padding: 15px, 40px? Как ни как два одинаковых значений*/
     margin-bottom: 30px;
     border: dashed red 2px;
     background-color: green;
